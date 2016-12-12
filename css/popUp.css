@@ -1,0 +1,32 @@
+* {
+	font-family: "Josefin Sans";
+}
+
+button {
+	margin-bottom: 0.7rem;
+	padding: 0.3rem;
+	background: #FB8D78;
+	border: none;
+	color: #FFF;
+	font-size: 0.7em;
+	cursor: pointer;
+}
+
+.ad {
+	background-image: url('bg2.jpg');
+	font-weight: bolder;
+	font-size: 2em;
+	position: absolute;
+	z-index: 100;
+	top: 40vh;
+	color: #FB8D78;
+	border: solid thick;
+}
+
+.hide {
+	display: none;
+}
+
+.ad-icon {
+	vertical-align: bottom;
+}

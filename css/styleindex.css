@@ -1,0 +1,308 @@
+*{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	width:100%;
+	height: auto;
+	z-index: 0;
+}
+
+header{
+	position: fixed;
+	background: #FB8D78;
+	color: azure;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	top: 0px;
+	box-shadow: 1px 1px 10px black;
+}
+
+#mains{
+	position: relative;
+	width: 100%;
+	height: 3000px;
+	top: 100px;
+	background: silver;
+	z-index: 0;
+}
+
+header h2{
+	float: left;
+	width: 40%;
+	font-size: 25pt;
+	margin: 2%;
+}
+
+header nav{
+	margin-right: 5%;
+	margin-top: 35px;
+	align-content: right;
+	float: right;
+	width: 40%;
+}
+
+nav ul li{
+	float: left;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+nav ul li a{
+	font-size: large;
+	color: azure;
+	text-decoration: none;
+}
+
+#scheduling{
+	height: 600px;
+	width: 40%;
+	float: left;
+	background-image: url('../images/sch.jpg');
+	background-position: center;
+}
+
+#schedule h1{
+	font-size: 32pt;
+}
+
+#scheduletable{
+	font-size: 22pt;
+	width: 45%;
+	text-align: center;
+	border: solid thin #FB8D78;
+}
+
+#scheduletable th{
+	background: #FB8D78;
+}
+
+#prices{
+	width: 100%;
+	height: auto;
+	font-size: 22pt;
+}
+
+#prices h2{
+	color:#FB8D78;
+}
+
+#pricetable{
+	width: 50%;
+}
+
+#pricetable th{
+	color: #FB8D78;
+}
+
+#pricesection{
+	height: auto;
+}
+
+.section{
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+#booking{
+	width: 40%;
+	height: 610px;
+	background:url('../images/appointment.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+#book{
+	width: 60%;
+	height: auto;
+	float: right;
+}
+
+#booking-table{
+	font-size: 18pt;
+	width: 75%;
+}
+
+#booking-table td{
+	margin: 4%;
+	padding: 1%;
+}
+
+#booking-table input{
+	font-size: 18pt;
+}
+
+#booking-table select{
+	font-size: 18pt;
+}
+
+#submit{
+	font-size: 18pt;
+	padding: 1%;
+	margin: 2%;
+	width: 30%;
+	border-style: none;
+	background: #FB8D78;
+}
+
+#submit:hover{
+	background: #f47d42;
+	cursor: pointer;
+}
+
+#section1{
+	background-image: url('../images/background.jpg');
+	height: 580px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+#section1 #welcometitle{
+	top: 200px;
+	color: white;
+	font-size: 50pt;
+	margin-right: 4%;
+	text-shadow: 2px 2px 4px #ff0000;
+	float: right;
+}
+
+#parlour{
+	height: 450px;
+	width: 40%;
+	float: left;
+	background-image: url('../images/parlour.jpeg');
+}
+
+#whoarewe{
+	height: auto;
+	width: 60%;
+	float: right;
+}
+
+#whoarewe h2{
+	margin-top: 10%;
+	font-size: 32pt;
+}
+
+#whoarewe p{
+	margin: 5%;
+	font-size: 28pt;
+}
+
+#history1{
+	height: 450px;
+	width: 60%;
+	float: right;
+	background-image: url('../images/started.jpg');
+}
+
+#started{
+	height: auto;
+	width: 40%;
+	float: left;
+}
+
+#started h2{
+	margin-top: 25%;
+	font-size: 32pt;
+}
+
+#started p{
+	margin: 5%;
+	font-size: 28pt;
+}
+
+
+
+#section4 h2{
+	margin-top: 5%;
+	font-size: 40pt;
+}
+
+#section4 ul{
+	width: 100%;
+}
+
+#section4 ul li{
+	float: left;
+	margin: 5%;
+	display: inline-block;
+}
+
+#section4 ul li img{
+	width: 200px;
+}
+
+
+#section5 h2{
+	margin-top: 5%;
+	font-size: 40pt;
+}
+
+#section5 ul{
+	font-size: x-large;
+}
+
+#section5 ul li{
+	float: left;
+	margin: 4.5%;
+	display: inline-block;
+}
+
+#section5 ul li img{
+	width: 200px;
+}
+
+footer{
+	clear: both;
+	background: #FB8D78;
+	font-size: 15pt;
+	padding: 5%;
+	color: white;
+}
+
+footer ul{
+	margin: 0 auto;
+}
+
+footer ul li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin-right: 3%;
+}
+
+footer ul li a img{
+	width: 50px;
+}
+
+#connect{
+	float: left;
+	width: 60%;
+}
+
+#foots{
+	text-align: right;
+	width: 40%;
+	float: right;	
+}
+
+.ad {
+	background-image: url('bg2.jpg');
+	font-weight: bolder;
+	font-size: 2em;
+	position: relative;
+	top: 40vh;
+	color: #FB8D78;
+	border: solid thick;
+	margin: auto 16%;
+}

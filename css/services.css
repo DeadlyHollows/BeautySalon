@@ -1,0 +1,126 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Josefin Sans";
+	font-size: 1.11em;
+}
+
+.type-parent {
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+	align-content: space-around;
+	flex-wrap: wrap;
+	margin: 1rem;
+}
+
+.cards {
+	margin: 3%;
+	line-height: 1.6;
+	width: 320px;
+	height: 440px;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+	overflow: hidden;
+	border-radius: 7px;
+}
+
+.img {
+	cursor: pointer;
+}
+
+.category {
+	font-size: 1em;
+}
+
+.link {
+	font-size: 0.7em;
+	text-decoration: none;
+}
+
+.details {
+	line-height: 1;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);	
+}
+
+.work {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cards {
+	margin: 3rem;
+}
+
+h3 {
+	color: #FB8D78;
+	font-weight: bolder;
+	padding-bottom: 0.3em;
+	font-size: 1.4em;
+}
+
+.type {
+	margin: 3rem auto;
+	width: 360px;
+}
+
+.start_desc {
+	margin: 3rem 10rem;
+	font-size: 2.4rem;
+}
+
+.user-feed {
+	font-size: 0.9em;
+	line-height: 3;
+	/*display: flex;*/
+}
+
+input, textarea {
+	border: none;
+	border-bottom: thin solid #FB8D78;
+}
+
+.icons {
+	vertical-align: text-bottom;
+}
+
+.create {
+	vertical-align: top;
+}
+
+.icons, .create {
+	padding-right: 0.3rem;
+}
+
+button[type="submit"] {
+	color: #FFFFFF;
+	background: #FB8D78;
+	border: none;
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	padding: 0.3rem;
+}
+
+.send {
+	padding-left: 0.7rem;
+	vertical-align: middle;
+}
+
+.feed {
+	color: #FB8D78;
+	font-size: 1.8em;
+}
+
+.social {
+	color: #FB8D78;
+	font-size: 1.5em;
+	margin-top: 3rem;
+	font-weight: bolder;
+}
+
+.connect-us {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}

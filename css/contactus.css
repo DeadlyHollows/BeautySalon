@@ -1,0 +1,105 @@
+html, body, .locateUs {
+	font-family: "Josefin Sans";
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: thick solid #FB8D78;
+}
+#map {
+	width: 80%;
+	height: 100%;
+	border-right: thick solid #FB8D78;
+}
+
+.locateUs {
+	display: flex;
+	flex-direction: row;
+}
+
+.address {
+	line-height: 2;
+	font-size: 1.2em;
+	margin: 1rem auto 3rem 1rem;
+}
+
+.large {
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 1.4em;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.mail {
+	text-decoration: none;
+}
+
+.addr {
+	margin-bottom: 3rem;
+}
+
+.large {
+	color: #FFF;
+	width: auto;
+	background-color: #FB8D78;
+}
+
+.special-hr {
+	margin-bottom: 3rem;
+}
+
+.navigator {
+	list-style-type: none;
+	font-size: 1.4em;
+	position: fixed;
+	text-align: center;
+	background-color: #eee;
+	width: 9rem;
+	right: 20px;
+	padding-top: 0.8rem;
+	padding-left: 1.4rem;
+	padding-bottom: 0.8rem;
+	top: 1rem;
+	right: 3.3rem;
+}
+
+.hide {
+	display: none;
+}
+
+.panel {
+}
+
+.options {
+	cursor: pointer;
+}
+
+.options:hover {
+	background-color: #FB8D78;
+}
+
+.more-vert {
+	cursor: pointer;
+	margin-top: 1.4rem;
+	margin-left: 1rem;
+}
+
+.back-links {
+	color: #000;
+	padding-right: 1.4rem;
+	text-decoration: none;
+}
+
+.menu-hr {
+	border-color: #fff;
+	width: 100%;
+	position: relative;
+	right: 10%;
+}
+
+.mail {
+	color: #FB8D78;
+	font-weight: bolder;
+}
